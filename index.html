@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/pabicon.png" type="image/x-icon">
+    <title>SmileEDI</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="header-list">
+                <div class="list-wrap">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/h-logo.png" alt="logo"></a>
+                    </div>
+                    <div class="etc">
+                        <ul>
+                            <li>빠른메뉴</li>
+                            <li><i class="fa-solid fa-user"></i></li>
+                        </ul>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li><img src="img/hamburger.svg" alt="hamburger">메뉴</li>
+                            <li>전자세금계산서</li>
+                            <li>전자계약서</li>
+                            <li>기업정보</li>
+                            <li>전자발주서</li>
+                            <li>업무지원서비스</li>
+                            <li>마켓플레이스</li>
+                            <li>고객지원센터</li>
+                            <li>스마일 EDI 소개</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-swiper swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1"></div>
+                    <div class="swiper-slide slide2"></div>
+                    <div class="swiper-slide slide3"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <!--  -->
+            <div class="sf_box">
+                <div class="swiper-pagination paging"></div>
+                <div class="sw_slide_prev"></div>
+                <div class="sw_slide_next"></div>
+                <button class="slide_play">재생</button>
+                <button class="slide_pause">멈춤</button>
+            </div>   
+        </div>
+        <div class="side-nav">
+            <div class="nav">
+                <div class="nav1">
+                    <span>전자세금계산서</span>
+                    <ul>
+                        <li>세금계산서 조회</li>
+                        <li>매출계산서 조회</li>
+                        <li>매입계산서 조회</li>
+                        <li>국세청 전송결과</li>
+                        <li>계산서 결재대기 +</li>
+                    </ul>
+                    <ul>
+                        <li>세금계산서 발행</li>
+                        <li>일반발행</li>
+                        <li>역방향 계산서 승인</li>
+                        <li>위/수탁 발행</li>
+                    </ul>
+                    <ul>
+                        <li>판매정산</li>
+                        <li>매입처 내역 +</li>
+                    </ul>
+                    <ul>
+                        <li>거래명세서</li>
+                        <li>거래명세서 발행</li>
+                        <li>보낸 거래명세서 조회</li>
+                        <li>받은 거래명세서 조회</li>
+                        <li>보낸 품목별 조회</li>
+                        <li>받음 품목별 조회</li>
+                    </ul>
+                    <ul>
+                        <li>입금표</li>
+                        <li>일반발행</li>
+                        <li>입금표 역발행</li>
+                        <li>역방향 승인</li>
+                        <li>입금표 조회</li>
+                        <li>결제 대기 +</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav2">
+                    <span>전자계약서</span>
+                    <ul>
+                        <li>계약서 관리</li>
+                        <li>계약서 작성</li>
+                        <li>보낸 계약서</li>
+                        <li>받은 계약서</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav3">
+                    <span>기업정보</span>
+                    <ul>
+                        <li>기업검색</li>
+                        <li>기업검색</li>
+                    </ul>
+                    <ul>
+                        <li>거래처 신용등급</li>
+                        <li>신용등급 조회 신청</li>
+                        <li>신용등급 조회</li>
+                        <li>변동알림 신청</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav4">
+                    <span>전자발주서</span>
+                    <ul>
+                        <li>견적관리</li>
+                        <li>견적서 조회</li>
+                        <li>견적서 발행</li>
+                    </ul>
+                    <ul>
+                        <li>발주관리</li>
+                        <li>발주서 조회 +</li>
+                        <li>받은 품목별 조회</li>
+                        <li>보낸 품목별 조회</li>
+                    </ul>
+                    <ul>
+                        <li>발주서 발행</li>
+                        <li>발주서 발행요청</li>
+                        <li>수신자 지정</li>
+                    </ul>
+                    <ul>
+                        <li>상품관리</li>
+                        <li>상품 조회</li>
+                        <li>상품 등록</li>
+                        <li>상품 대량등록</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav5">
+                    <span>업무지원센터</span>
+                    <ul>
+                        <li>업무지원센터</li>
+                        <li>휴/폐업조회</li>
+                        <li>매입관리</li>
+                        <li>전자공문</li>
+                        <li>전자입찰</li>
+                        <li>전자청구서</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav6">
+                    <span>고객지원센터</span>
+                    <ul>
+                        <li>고객지원센터</li>
+                        <li>가입안내</li>
+                        <li>요금안내</li>
+                        <li>공지사항</li>
+                        <li>인증서안내</li>
+                        <li>자주하는 질문</li>
+                        <li>운영자에게 문의</li>
+                    </ul>
+                    <ul>
+                        <li>수정세금계산서</li>
+                        <li>다운로드</li>
+                        <li>고객상담실</li>
+                        <li>서비스 도입 문의</li>
+                        <li>서비스 제휴 문의</li>
+                        <li>원격지원</li>
+                        <li>행운룰렛</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav7">
+                    <span>스마일 EDI 소개</span>
+                    <ul>
+                        <li>SmileEDI 소개</li>
+                        <li>그룹소개</li>
+                        <li>회사소개</li>
+                        <li>회사위치 및 연락처</li>
+                        <li>SmileEDI 소개</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav-"></div>
+            </div>
+        </div>
+        <div class="b-nav">
+            <div class="nav-wrap">
+                <div class="nav1">
+                    <span>전자세금계산서</span>
+                    <ul>
+                        <li>세금계산서 조회</li>
+                        <li>매출계산서 조회</li>
+                        <li>매입계산서 조회</li>
+                        <li>국세청 전송결과</li>
+                        <li>계산서 결재대기 +</li>
+                    </ul>
+                    <ul>
+                        <li>세금계산서 발행</li>
+                        <li>일반발행</li>
+                        <li>역방향 계산서 승인</li>
+                        <li>위/수탁 발행</li>
+                    </ul>
+                    <ul>
+                        <li>판매정산</li>
+                        <li>매입처 내역 +</li>
+                    </ul>
+                    <ul>
+                        <li>거래명세서</li>
+                        <li>거래명세서 발행</li>
+                        <li>보낸 거래명세서 조회</li>
+                        <li>받은 거래명세서 조회</li>
+                        <li>보낸 품목별 조회</li>
+                        <li>받음 품목별 조회</li>
+                    </ul>
+                    <ul>
+                        <li>입금표</li>
+                        <li>일반발행</li>
+                        <li>입금표 역발행</li>
+                        <li>역방향 승인</li>
+                        <li>입금표 조회</li>
+                        <li>결제 대기 +</li>
+                    </ul>
+                </div>
+                <div class="nav2">
+                    <span>전자계약서</span>
+                    <ul>
+                        <li>계약서 관리</li>
+                        <li>계약서 작성</li>
+                        <li>보낸 계약서</li>
+                        <li>받은 계약서</li>
+                    </ul>
+                </div>
+                <div class="nav3">
+                    <span>기업정보</span>
+                    <ul>
+                        <li>기업검색</li>
+                        <li>기업검색</li>
+                    </ul>
+                    <ul>
+                        <li>거래처 신용등급</li>
+                        <li>신용등급 조회 신청</li>
+                        <li>신용등급 조회</li>
+                        <li>변동알림 신청</li>
+                    </ul>
+                </div>
+                <div class="nav4">
+                    <span>전자발주서</span>
+                    <ul>
+                        <li>견적관리</li>
+                        <li>견적서 조회</li>
+                        <li>견적서 발행</li>
+                    </ul>
+                    <ul>
+                        <li>발주관리</li>
+                        <li>발주서 조회 +</li>
+                        <li>받은 품목별 조회</li>
+                        <li>보낸 품목별 조회</li>
+                    </ul>
+                    <ul>
+                        <li>발주서 발행</li>
+                        <li>발주서 발행요청</li>
+                        <li>수신자 지정</li>
+                    </ul>
+                    <ul>
+                        <li>상품관리</li>
+                        <li>상품 조회</li>
+                        <li>상품 등록</li>
+                        <li>상품 대량등록</li>
+                    </ul>
+                </div>
+                <div class="nav5">
+                    <span>업무지원센터</span>
+                    <ul>
+                        <li>업무지원센터</li>
+                        <li>휴/폐업조회</li>
+                        <li>매입관리</li>
+                        <li>전자공문</li>
+                        <li>전자입찰</li>
+                        <li>전자청구서</li>
+                    </ul>
+                </div>
+                <div class="nav6">
+                    <span>고객지원센터</span>
+                    <ul>
+                        <li>고객지원센터</li>
+                        <li>가입안내</li>
+                        <li>요금안내</li>
+                        <li>공지사항</li>
+                        <li>인증서안내</li>
+                        <li>자주하는 질문</li>
+                        <li>운영자에게 문의</li>
+                    </ul>
+                    <ul>
+                        <li>수정세금계산서</li>
+                        <li>다운로드</li>
+                        <li>고객상담실</li>
+                        <li>서비스 도입 문의</li>
+                        <li>서비스 제휴 문의</li>
+                        <li>원격지원</li>
+                        <li>행운룰렛</li>
+                    </ul>
+                </div>
+                <div class="nav7">
+                    <span>스마일 EDI 소개</span>
+                    <ul>
+                        <li>SmileEDI 소개</li>
+                        <li>그룹소개</li>
+                        <li>회사소개</li>
+                        <li>회사위치 및 연락처</li>
+                        <li>SmileEDI 소개</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-wrap">
+                <div class="call">
+                    <ul>
+                        <li><img src="img/call.png" alt="call"></li>
+                        <li>고객지원</li>
+                    </ul>
+                    <ul>
+                        <li>고객센터</li>
+                        <li>1644-1686</li>
+                    </ul>
+                    <ul>
+                        <li>평일 09:00 ~ 18:00</li>
+                        <li>점심시간 11:50 ~ 12:50</li>
+                        <li>토 / 일 / 공휴일 휴무</li>
+                    </ul>
+                    <ul>
+                        <li>FAX</li>
+                        <li>02-6181-2499</li>
+                    </ul>
+                </div>
+                <div class="vip">
+                    <ul>
+                        <li><img src="img/cash.png" alt="cash"></li>
+                        <li>요금안내</li>
+                    </ul>
+                    <ul>
+                        <li>세금계산서 발행을 하시려면</li>
+                        <li>유료회원(정회원)</li>
+                        <li>으로 회원가입을 하셔야 합니다.</li>
+                    </ul>
+                    <div class="box">
+                        <div class="box-1">연간 포인트 요금제</div>
+                        <div class="box-2">월 정액제 요금</div>
+                    </div>
+                </div>
+                <div class="login">
+                    <ul>
+                        <li>로그인 후, Smile EDI의</li>
+                        <li>더욱 다양한 혜택을 즐겨보세요.</li>
+                    </ul>
+                    <div class="log-in">Smile EDI 로그인</div>
+                    <div class="search">
+                        <ul>
+                            <li>아이디 찾기</li>
+                            <li>비밀번호 찾기</li>
+                        </ul>
+                        <span>회원가입</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="section-wrap">
+                    <div class="notice">
+                        <ul>
+                            <li>공지사항</li>
+                            <li>Smilde EDI의 새로운 소식과 정보</li>
+                            <li>더보기</li>
+                        </ul>
+                        <ul>
+                            <li>
+                                2022년 9월 세금계산서 발급 마감일은 2022년 10월 11일(화)입니다.
+                            </li>
+                            <li>
+                                [리뉴얼] SmileEDI가 이렇게 달라집니다.
+                            </li>
+                            <li>
+                                2022년 8월 세금계산서 발급 마감일은 2022년 9월 13일(화)입니다.
+                            </li>
+                            <li>
+                                2022년 7월 세금계산서 발급 마감일은 2022년 8월 10일(수)입니다.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="qna">
+                        <ul>
+                            <li>자주하는 질문</li>
+                            <li>더보기</li>
+                        </ul>
+                        <ul>
+                            <li>[회원가입] 아이디와 비밀번호를 분실했는데 어떻게 찾나요?</li>
+                            <li>[공동인증서] 공동인증서 없이 세금계산서 발행을 할수는
+                                없나요?</li>
+                            <li>[전자세금계산서] 역방향 계산서 승인방법</li>
+                            <li>[가산세] 국세청 전송과 관련한 가산세의 종류에는 어떤 것이
+                                있나요?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-wrap">
+                <div class="left">
+                    <div class="logo"><img src="img/h-logo.png" alt="logo"></div>
+                    <p>주소 서울특별시 강남구 광명로 281 수서빌딩 18층 (우편번호) 06349</p>
+                    <ul>
+                        <li>대표전화 1644-1686</li>
+                        <li>팩스 02-6181-2499</li>
+                    </ul>
+                    <ul>
+                        <li>COPYRIGHT(C) 2018 HYOSUNG TNS.</li>
+                        <li>ALL RIGHTS RESERVED.</li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>이용약관</li>
+                        <li>개인정보처리방침</li>
+                        <li>사이트맵</li>
+                    </ul>
+                    <div class="footer-img">
+                        <img src="img/footerimg.png" alt="footerimg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
